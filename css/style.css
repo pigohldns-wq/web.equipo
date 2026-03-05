@@ -1,26 +1,51 @@
-h1{
-    font-family: "Boldonse", serif;   
-    font-size: 1cm; 
-    margin: 10px auto;
-    text-align: center;
-    color: white;
-}
-h2{
-     margin: 10px auto;
-    margin-left: 2cm;
-    color: white;
-}
-p{
-    margin: 10px auto;
-    margin-left: 3cm;
-    line-height: 2;
-    font-family: "schoolbell";
-    font-size: 0,9cm;
-    color: white;
-}
-body{
-    background-image:url(../images/966226-arboles-bosque-hojas-naturaleza.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat;
  
-} 
+body{
+    background-image: url(../images/idyllic-mountain-landscape-with-fresh-green-meadows-and-blooming-wildflowers-idyllic-nature-countryside-view-rural-outdoor-natural-view-idyllic-banner-nature-panoramic-spring-summer-scenery-photo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    background-color: brown;
+    text-align: center;
+    width: 800px;
+    margin: 10px auto;
+    height: 100px;
+    line-height: 100px;
+    transition: 3s;
+    border: 4px solid black;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+}
+h1:hover{
+    background-color: red;
+    font-size: 400%;
+}
+ul{
+    color : black;  
+}
+dt{
+    font-size: 1cm;
+}
+li{
+    font-size: 0.70cm;
+}
+dd{
+    font-size: 0.5cm;
+}
+.depre{
+    font-size: 0.4cm;
+    margin-left: 2.5cm;
+}
+.link{
+    color: red;
+}
+.patata{
+    height: 1cm;
+    width: 1cm;
+}
+.patata:hover{
+    height: 5cm;
+    width: 5cm;
+}
+
