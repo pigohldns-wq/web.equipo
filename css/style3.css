@@ -4,6 +4,9 @@ h1{
     margin: 10px auto;
     text-align: center;
     color: white;
+    background-color: black;
+    border: 4px solid black;
+     border-radius: 50px;
 }
 h2{
      margin: 10px auto;
@@ -22,4 +25,5 @@ body{
     background-image:url(../images/966226-arboles-bosque-hojas-naturaleza.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
