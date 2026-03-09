@@ -29,3 +29,40 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.azu{
+    margin: 10px auto;
+      border: 2px solid white;
+    border-radius: 50px;
+     line-height: 100px;    
+     padding: 10px 20px;
+}
+.nor{
+    margin: 10px auto;
+    border: 2px solid white;
+    border-radius: 50px;
+     line-height: 100px;    
+     padding: 10px 20px;
+}
+.bi{
+    margin: 10px auto;  
+    border: 2px solid white;
+    border-radius: 50px;
+     line-height: 100px;    
+     padding: 10px 20px;
+
+}
+.amar{
+    margin: 10px auto;
+      border: 2px solid white;
+    border-radius: 50px;
+     line-height: 100px;    
+     padding: 10px 20px;
+}
+.ardi{
+    margin: 10px auto;
+    border: 2px solid white;
+    border-radius: 50px;
+     line-height: 100px;    
+     padding: 10px 20px;
+     text-align: center;
+}
