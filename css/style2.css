@@ -89,3 +89,11 @@ h3 {
     color: rgb(255, 255, 255);
     position: relative;
 }
+.patata{
+    height: 1cm;
+    width: 1cm;
+}
+.patata:hover{
+    height: 5cm;
+    width: 5cm;
+}
