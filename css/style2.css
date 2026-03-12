@@ -16,13 +16,13 @@ h1{
      line-height: 100px;
      margin: 10px auto;
 }
-.video {
+.video1{ 
     max-width: 100%;
     height: auto;
     text-align: center;
     position: relative;
     left: 50%;
-    top: 50%;
+    top: 15%;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
@@ -96,4 +96,14 @@ h3 {
 .patata:hover{
     height: 5cm;
     width: 5cm;
+}
+.video2 {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
