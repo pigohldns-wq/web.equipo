@@ -1,109 +1,144 @@
-body{
-     background-image: url(https://p4.wallpaperbetter.com/wallpaper/451/916/1015/greens-summer-grass-trees-wallpaper-preview.jpg);
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(../images/lineas-dinamicas-fondo-estilo-papel_23-2149008629.avif);
     background-size: cover;
     background-attachment: fixed;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+.Indice {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid white;
+    min-height: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.seccion-izquierda a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.seccion-izquierda, .paginas {
+    flex: 1 1 0;
+    display: flex;
+    min-width: 150px;
+}
+.seccion-izquierda a:hover, .paginas a:hover {
+    color: blue;
+}
+h1 {
+    background-color: white;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 70px;
+    transition: 1s;
+    border: 4px solid black;
+    color: black;
+    border-radius: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    max-width: 90%;
+    height: auto;
+    line-height: 1.5;
+}
+h1:hover {
+    font-size: 300%;
+    background-color: #eee;
+}
+.paginas a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.paginas {
+    justify-content: flex-end;
+} 
+.contenido {
+    padding: 50px;
+        text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 70px auto;
+    width: 70%;
+    border-radius: 10px;
+    color: white;
+}
+h2 {
+    font-size: 50px;
+}
+.PiePagina {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px 0;
+    margin-top: auto;
+    border-top: 2px solid white;
+    text-align: center;
+    width: 100%;
+}
+.footer-content {
+    width: 100%;
+    margin: auto;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.footer-links a:hover {
+    color: blue;
+}
+.contacto-container {
+    margin: 50px auto;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.contacto-info {
+    flex: 1;
+    padding: 30px;
 }
 
-h1{
-    font-family: "Boldonse", serif;   
-    font-size: 1cm; 
-    margin: 10px auto;
-    text-align: center;
+.redes-sociales {
+    margin-top: 30px;
+}
+
+.tiktok-link {
+    padding: 10px 20px;
+    background: #fe2c55;
     color: white;
-    background-color: black;
-    border: 4px solid black;
-     border-radius: 50px;
-     line-height: 100px;
-     margin: 10px auto;
+    text-decoration: none;
+    border-radius: 5px;
 }
-.video1{ 
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    position: relative;
-    left: 50%;
-    top: 15%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+
+.tiktok-link:hover {
+    box-shadow: 0 0 15px rgba(254, 44, 85, 0.5);
 }
-h2{
-    font-family: "Boldonse", serif;   
-    font-size: 1cm; 
-    margin: 10px auto;
-    text-align: center;
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+
+.formulario-contacto input, .formulario-contacto textarea {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
     color: white;
-    background-color: black;
-    border: 4px solid black;
-     border-radius: 50px;
-     line-height: 100px;
-     margin: 10px auto;
 }
-.exp{
-    margin: 10px auto;
-    margin-left: 2cm;
-    line-height: 2;
-    font-family: "schoolbell";
-    font-size: 0,9cm;
-    color: rgb(255, 255, 255);
-    position: relative;
+
+.formulario-contacto button {
+    color: black;
 }
-.video2{
-       max-width: 100%;
-    height: auto;
-    text-align: center;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-h4{  font-family: "Boldonse", serif;   
-    font-size: 1cm; 
-    margin: 10px auto;
-    text-align: center;
-    color: white;
-    background-color: black;
-    border: 4px solid black;
-     border-radius: 50px;
-     line-height: 100px;
-     margin: 10px auto;
-}
-h3 {
-    font-family: "Boldonse", serif;   
-    font-size: 1cm; 
-    margin: 10px auto;
-    text-align: center;
-    color: white;
-    background-color: black;
-    border: 4px solid black;
-     border-radius: 50px;
-     line-height: 100px;
-     margin: 10px auto;
-}
-.exp2{
-     margin: 10px auto;
-    margin-left: 2cm;
-    line-height: 2;
-    font-family: "schoolbell";
-    font-size: 0,9cm;
-    color: rgb(255, 255, 255);
-    position: relative;
-}
-.patata{
-    height: 1cm;
-    width: 1cm;
-}
-.patata:hover{
-    height: 5cm;
-    width: 5cm;
-}
-.video2 {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    position: relative;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+
+.formulario-contacto button:hover {
+    background-color: orange;
 }

@@ -1,51 +1,144 @@
- 
-body{
-    background-image: url(../images/idyllic-mountain-landscape-with-fresh-green-meadows-and-blooming-wildflowers-idyllic-nature-countryside-view-rural-outdoor-natural-view-idyllic-banner-nature-panoramic-spring-summer-scenery-photo.jpg);
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(../images/lineas-dinamicas-fondo-estilo-papel_23-2149008629.avif);
     background-size: cover;
     background-attachment: fixed;
+    margin: 0;
+    background-color: #f2f2f2;
 }
-h1{
-    background-color: brown;
+.Indice {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid white;
+    min-height: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.seccion-izquierda a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.seccion-izquierda, .paginas {
+    flex: 1 1 0;
+    display: flex;
+    min-width: 150px;
+}
+.seccion-izquierda a:hover, .paginas a:hover {
+    color: blue;
+}
+h1 {
+    background-color: white;
     text-align: center;
-    width: 800px;
-    margin: 10px auto;
-    height: 100px;
-    line-height: 100px;
-    transition: 3s;
+    padding: 0 20px;
+    line-height: 70px;
+    transition: 1s;
     border: 4px solid black;
     color: black;
-    text-align: center;
     border-radius: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    max-width: 90%;
+    height: auto;
+    line-height: 1.5;
 }
-h1:hover{
-    background-color: red;
-    font-size: 400%;
+h1:hover {
+    font-size: 300%;
+    background-color: #eee;
 }
-ul{
-    color : black;  
+.paginas a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
-dt{
-    font-size: 1cm;
+.paginas {
+    justify-content: flex-end;
+} 
+.contenido {
+    padding: 50px;
+        text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 70px auto;
+    width: 70%;
+    border-radius: 10px;
+    color: white;
 }
-li{
-    font-size: 0.70cm;
+h2 {
+    font-size: 50px;
 }
-dd{
-    font-size: 0.5cm;
+.PiePagina {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px 0;
+    margin-top: auto;
+    border-top: 2px solid white;
+    text-align: center;
+    width: 100%;
 }
-.depre{
-    font-size: 0.4cm;
-    margin-left: 2.5cm;
+.footer-content {
+    width: 100%;
+    margin: auto;
 }
-.link{
-    color: red;
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
 }
-.patata{
-    height: 1cm;
-    width: 1cm;
+.footer-links a:hover {
+    color: blue;
 }
-.patata:hover{
-    height: 5cm;
-    width: 5cm;
+.contacto-container {
+    margin: 50px auto;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.contacto-info {
+    flex: 1;
+    padding: 30px;
 }
 
+.redes-sociales {
+    margin-top: 30px;
+}
+
+.tiktok-link {
+    padding: 10px 20px;
+    background: #fe2c55;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tiktok-link:hover {
+    box-shadow: 0 0 15px rgba(254, 44, 85, 0.5);
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+
+.formulario-contacto input, .formulario-contacto textarea {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.formulario-contacto button {
+    color: black;
+}
+
+.formulario-contacto button:hover {
+    background-color: orange;
+}
